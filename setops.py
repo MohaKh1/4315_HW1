@@ -61,7 +61,9 @@ def setops():
     file_1_name_str, file_2_name_str, operation_name_str = read_args(sys.argv)
 
     DEBUG_MODE = True if sys.argv[-1] == "--debug" else False
-
+    if not DEBUG_MODE:
+        sys.argv.append('--debug')
+        print(f"    NOTE:add '--debug' flag to run in debug mode. '{' '.join(sys.argv)}'")
     # # Open the file 1 and read its content.
     try:
         file1_ = open(file_1_name_str, "r").read()
