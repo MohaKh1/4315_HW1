@@ -1,25 +1,9 @@
-32132231
-dasdszf'effs
-
-
-dasfe
-f
-
-
-
-
-
-
-
-
-
-
-
-
-f4
-ff
-f4
-f4f4
-4f4
-f4f4f
-4f4
+Hello! This is a sample text file.
+It contains various types of characters:
+- Words like "hello"":"l'''@222asdadq2d[; .[]] and "world"
+- Numbers such as 12345 and 6.789
+- Special ch901ki09aracters like !@#$%^&*()_+
+- Newlines and tabs:
+    Line 1
+    Line 2
+    Line 3
