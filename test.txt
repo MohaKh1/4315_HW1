@@ -1,7 +1,7 @@
-Hello! This is a sample text file.
-It contains various types of characters:
+Hello! This is a saomple text file.
+It cont;kjains variouf234s typeddh.s of ch;jkaracters:
 - Words like "hello"":"l'''@222asdadq2d[; .[]] and "world"
-- Numbers such as 12345 and 6.789
+- Numbers such as 12345 and da6.789sa;da
 - Special ch901ki09aracters like !@#$%^&*()_+
 - Newlines and tabs:
     Line 1

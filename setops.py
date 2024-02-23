@@ -141,7 +141,7 @@ def setops():
         ~Output: Bool True or False
     """
     is_special = lambda char: not (
-        "A" <= char <= "Z" or "a" <= char <= "z" or "0" <= char <= "9"
+        "A" <= char <= "Z" or "a" <= char <= "z" or "0" <= char <= "9" or char == '.'
     )
 
     get_substrings = (
@@ -202,7 +202,7 @@ def setops():
         print()
 
     print(
-        "~separating into bag of words and string numbers via numeric or (alpha) characters IMPLEMENT ME!"
+        "~separating into bag of words and string integers and decimals via numeric or (alpha) characters IMPLEMENT ME!"
     )
 
     print("~creating set of distinct words by removing duplicate words IMPLEMENT ME!")
