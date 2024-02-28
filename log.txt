@@ -1,0 +1,19 @@
+
+ARGUMENTS SUPPLIED:
+FILENAME1: "a4.txt"
+FILENAME2: "b4.txt"
+OPERATION: "intersection"
+    NOTE:add '--debug' flag to run in debug mode. 'setops.py set1=a4.txt;set2=b4.txt;operation=intersection --debug'
+
+~Loaded contents of a4.txt into memory successfully!
+~Loaded contents of b4.txt into memory successfully!
+
+~processing indexes of non-alphanumeric characters from a4.txt
+~processing indexes of non-alphanumeric characters from b4.txt
+~separating into bag of substrings by non-alphanumeric characters
+~converting bag of substrings to lowercase
+~separating into bag of words and string integers and decimals via numeric or (alpha) characters 
+bag 1 -> set 1: removed 1 duplicate word(s)
+bag 1 -> set 2: removed 1 duplicate word(s)
+~performing operation "intersection"
+result -> ['12.13', '12.34', '5678', '91011', 'blue', 'moon', 'rock', 'star', 'tree']
